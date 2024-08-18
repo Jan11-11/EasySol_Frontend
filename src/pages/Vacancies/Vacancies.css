@@ -1,0 +1,171 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.vacancies-page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vacancies-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.vacancies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.vacancy-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(50% - 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.vacancy-item:hover {
+  transform: translateY(-5px);
+}
+
+.vacancy-item h2 {
+  font-size: 1.5em;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.vacancy-item p {
+  font-size: 1em;
+  color: #555;
+  margin: 5px 0;
+}
+
+.vacancy-item li {
+  font-size: 0.9em;
+  color: #555;
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.vacancy-item > div {
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.vacancy-item > div p {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.vacancy-item > div ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+} */
+.vacancies-page_big{
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+  margin-top:70px;
+  background: linear-gradient(135deg, #747779, #5e9b6b);
+}
+.vacancies-page h1{
+ text-align: center;
+}
+.vacancy-item{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.nameClass {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #9a9d9e;
+  transition:  0.3s ease-in-out, transform 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.nameClass:hover {
+  background: linear-gradient(135deg, #9a9d9e, #346c40);
+  transform: scale(1.05) 
+}
+
+
+
+
+.descriptClass{
+  text-align: center;
+  color: #1b5c09;
+  font-size: 20px;
+}
+
+.title0Class{
+  width: 70%;
+  margin-top: 20px;
+}
+
+.title0Class div{
+display: flex;
+justify-content: space-between;
+
+
+
+}
+.title0Class div {
+  justify-content: space-between; 
+  text-align: right;
+  color: #1b5c09;
+}
+
+.titles1Class{
+  margin-top: 30px;
+  
+}
+
+.titles1{
+ margin-top: 20px;
+ color:   #1b5c09 ;
+}
+
+.nameCLassName p{
+ margin-top: 20px;
+}
+.nameCLassName {
+color: #1b5c09;
+}
+
+.titles1 li{
+  margin-top: 20px;
+  
+ }
+
+ .titles1 li::before{
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #1b5c09; /* Color of the dot */
+  border-radius: 50%; /* Makes the dot round */
+  margin-right: 0.5em;
+ }
+
+ .emailclassName{
+   margin-top: 20px;
+   color: #1b5c09;
+ }

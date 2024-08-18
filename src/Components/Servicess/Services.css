@@ -1,0 +1,86 @@
+.service-modal-overlay {
+  /* background-color: rgba(0, 0, 0, 0.75); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.service-modal {
+  background: linear-gradient(135deg, #747779, #5e9b6b);
+  padding: 20px;
+  width: 80%;
+  /* height: 100%; */
+  /* width: 90%; */
+  margin: auto;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.service-modal button {
+  margin-top: 10px;
+  /* width: 100%;
+  height: 100%; */
+  
+}
+.modalll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  /* width: 100%;
+  height: 100%; */
+  
+}
+.ModalPage{
+ width: 100%;
+ height: 100%;
+}
+.homepage__services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.homepage__service {
+  flex: 1 1 calc(33.333% - 20px); /* Adjust the percentage based on the number of items per row */
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+  background-color: #f9f9f9;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+}
+
+.homepage__service h3 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.homepage__service p {
+  margin: 0;
+  /* font-size: 1em; */
+  word-wrap: break-word; /* Older syntax for breaking words */
+  overflow-wrap: break-word; /* Standard syntax for breaking words */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .homepage__service {
+      flex: 1 1 calc(50% - 20px); /* Two items per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage__service {
+      flex: 1 1 100%; /* One item per row */
+  }
+}

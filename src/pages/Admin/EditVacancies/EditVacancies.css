@@ -1,0 +1,109 @@
+.edit-vacancies-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.add-vacancy-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.vacancy-form {
+    margin-bottom: 20px;
+}
+
+.vacancy-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.vacancy-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.vacancy-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.vacancies-list {
+    margin-top: 20px;
+}
+
+.vacancy-item {
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.vacancy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vacancy-header h3 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.vacancy-icons {
+    display: flex;
+    align-items: center;
+}
+
+.edit-Vacancies, .delete-Vacancies {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.edit-Vacancies:hover, .delete-Vacancies:hover {
+    color: #333;
+}
+
+.vacancy-details {
+    margin-top: 10px;
+}
+.vacancy-details p {
+
+    color: white;
+}
+
+
+.form-buttons {
+    margin-top: 10px;
+}
+
+.form-buttons button {
+    margin-right: 10px;
+}

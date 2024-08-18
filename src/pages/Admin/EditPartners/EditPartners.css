@@ -1,0 +1,176 @@
+.edit-partners-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.logo-preview {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* This ensures the image covers the area without distorting */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    margin-top: 10px; /* Optional: Add some space above the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+*{
+    color: black;
+}
+.add-new-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.partner-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.partner-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.partner-form input[type="text"],
+.partner-form input[type="file"] {
+    width: calc(100% - 22px); /* Adjust width to account for padding and border */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.partner-form input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+.partner-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-buttons {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.partners-list {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.partner-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.partner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner-header h3 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.partner-icons {
+    display: flex;
+    align-items: center;
+}
+
+.edit-iconPartners, .delete-iconPartners {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.edit-iconPartners:hover, .delete-iconPartners:hover {
+    color: #333;
+}
+
+.partner-details {
+    margin-top: 10px;
+}
+
+.partner-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.file-upload input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.upload-btn:hover {
+    background-color: #45a049;
+}
+
+.logo-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

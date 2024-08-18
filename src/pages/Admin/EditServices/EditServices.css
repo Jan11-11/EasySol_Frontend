@@ -1,0 +1,116 @@
+.edit-services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.add-service-button{
+    margin: 10px auto;
+}
+.service-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service-form label {
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.service-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.service-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.services-list {
+    margin-top: 20px;
+}
+
+.service-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .service-item:hover {
+    background-color: #f9f9f9;
+} */
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-header h3 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.service-icons {
+    display: flex;
+    align-items: center;
+}
+
+.edit-iconservice, .delete-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.edit-icon:hover, .delete-icon:hover {
+    color: #333;
+}
+
+.service-details {
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+
+    border-radius: 4px;
+}
+
+.service-details p {
+    margin-bottom: 5px;
+    /* color: white; */
+}
+
+.form-buttons {
+    margin-top: 10px;
+}
+
+.form-buttons button {
+    margin-right: 10px;
+}
+
+.loading, .error {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}

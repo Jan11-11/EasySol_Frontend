@@ -1,0 +1,64 @@
+/* PrivacyPolicyModal.css */
+
+/* Overlay Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Modal Content Styles */
+  .modal-content {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Light shadow */
+  }
+  
+  .modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0; /* Light border */
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333333; /* Dark text color */
+  }
+  
+  .modal-body {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666666; /* Medium-dark text color */
+  }
+  
+  .modal-footer {
+    padding: 20px;
+    text-align: right;
+    border-top: 1px solid #e0e0e0; /* Light border */
+  }
+  
+  .modal-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary blue color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  

@@ -1,0 +1,199 @@
+.homepage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  padding: 20px;
+  background: linear-gradient(135deg, #3a3a3a, #1a1a1a); /* Initial gradient */
+  animation: background-animation 15s infinite alternate; /* Apply animation */
+}
+
+@keyframes background-animation {
+  0% {
+    background: linear-gradient(135deg,#a0a0a0, #9adda9); /* Start gradient */
+  }
+  100% {
+    background: linear-gradient(135deg, #585656, #3c535e); /* End gradient */
+  }
+}
+
+
+.homepage__hero {
+  background: linear-gradient(135deg, #747779, #5e9b6b); /* Harmonized colors */
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger 3D effect */
+  border-radius: 20px; /* Smoother corners */
+  margin-bottom: 40px;
+}
+
+.homepage__hero h1 {
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Enhanced 3D text effect */
+}
+
+.homepage__hero p {
+  font-size: 1.5em;
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Enhanced 3D text effect */
+}
+
+.homepage__carousel {
+  margin: 40px 0;
+}
+
+.carousel__slide {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px; /* Fixed height for slides */
+  border-radius: 5px; /* Smoother corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger 3D effect */
+}
+
+.carousel__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers container */
+}
+
+@media (max-width: 1200px) {
+  .homepage__hero h1 {
+    font-size: 2.5em;
+  }
+
+  .homepage__hero p {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage__hero {
+    padding: 40px 20px;
+  }
+
+  .homepage__hero h1 {
+    font-size: 2em;
+  }
+
+  .homepage__hero p {
+    font-size: 1em;
+  }
+
+  .carousel__slide {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .homepage__hero {
+    padding: 20px 10px;
+  }
+
+  .homepage__hero h1 {
+    font-size: 1.5em;
+  }
+
+  .homepage__hero p {
+    font-size: 0.9em;
+  }
+
+  .carousel__slide {
+    height: 200px; /* Adjust height for smaller screens */
+  }
+}
+.homepage__service {
+  /* Existing styles */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.homepage__service-expanded {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  display: none; /* Initially hide expanded content */
+  animation: expand-service 0.3s ease-in-out forwards;
+}
+
+@keyframes expand-service {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px; /* Adjust based on your content */
+  }
+}
+.homepage__services {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.homepage__services h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.homepage__services-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.homepage__service {
+  background: linear-gradient(135deg, #747779, #5e9b6b); /* Harmonized colors */
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(185, 172, 172, 0.3); /* Stronger 3D effect */
+  transition: transform 0.3s;
+  color: #fff;
+  margin-bottom: 20px; /* Add space between services on smaller screens */
+  height: 100%;
+}
+
+.homepage__service:hover {
+  transform: translateY(-3px); /* Lift on hover */
+}
+
+.homepage__service h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.homepage__about {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.homepage__about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.homepage__about p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #5e9b6b; /* Harmonized color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* 3D effect */
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px); /* Lift on hover */
+  background-color: #747779; /* Darker shade on hover */
+}

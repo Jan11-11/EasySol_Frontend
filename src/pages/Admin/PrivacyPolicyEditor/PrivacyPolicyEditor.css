@@ -1,0 +1,79 @@
+.privacy-policy-editor {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .privacy-policy-editor h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .policy-text {
+    position: relative;
+    color: black;
+  }
+  
+  .policy-text p {
+    margin: 0;
+  }
+  
+  .edit-iconPrivate {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .edit-mode {
+    margin-top: 20px;
+  }
+  
+  .policy-textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+    color: black !important;
+  }
+  
+  .edit-controls {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .save-button,
+  .cancel-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 10px;
+  }
+  
