@@ -34,12 +34,13 @@ const EditPartners = () => {
         const formData = new FormData();
         formData.append("image", file);
         try {
-            const response = await axios.post(`${URL}partners/upload`, formData, {
+            const response = await axios.post(`${URL}partners/addPicture`, formData, {
                 headers: {
                     "Content-Type": "multipart/form-data",
                 },
             });
-            return response.data.url; // Assuming the API returns the URL of the uploaded image
+            
+            return response.data.dirname; // Use dirname as the image URL
         } catch (error) {
             console.error("Error uploading image:", error);
             return null;
@@ -50,6 +51,8 @@ const EditPartners = () => {
         e.preventDefault();
         try {
             const imageUrl = await uploadImageHandler(newPartner.logo);
+            console.log("imageUrl",imageUrl);
+            
             if (!imageUrl) throw new Error('Image upload failed.');
 
             const response = await axios.post(`${URL}partners/add`, {
@@ -77,7 +80,7 @@ const EditPartners = () => {
                 if (!imageUrl) throw new Error('Image upload failed.');
             }
 
-            const response = await axios.put(`${URL}partners/update/${editPartner.id}`, {
+            const response = await axios.put(`${URL}partners/put/${editPartner.id}`, {
                 name: editPartner.name,
                 logo: imageUrl,
                 title: editPartner.title,
@@ -93,7 +96,7 @@ const EditPartners = () => {
 
     const handleDeletePartner = async (id) => {
         try {
-            await axios.delete(`${URL}partners/delete/${id}`);
+            await axios.delete(`${URL}partners/del/${id}`);
             const updatedPartners = partners.filter(partner => partner.id !== id);
             setPartners(updatedPartners);
         } catch (error) {

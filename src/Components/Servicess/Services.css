@@ -25,16 +25,18 @@
   height: 100%; */
   
 }
-.modalll{
+.modalll {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   flex-direction: column;
-  /* width: 100%;
-  height: 100%; */
-  
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 80vh; /* Adjust the height to your preference */
+  width: 100%;
+  box-sizing: border-box;
 }
+
 .ModalPage{
  width: 100%;
  height: 100%;

@@ -57,25 +57,6 @@ console.log(services,555555555555555555);
 console.log(selectedService,6666666666666);
 
 
- const arr=[
-    {
-        id:1,
-        name:"Bajin 1",
-        description:"Շենք-շինությունների ճարտարագիտական համակարգերի տեխնիկական սպասարկում",
-         subTitle: [
-            {
-              text: "Building the web of ",
-              details: ["vazgen", "E-commerce solutions"]
-            },
-            {
-              text: "Building the web of tomorrow",
-              details: ["Custom websites", "E-commerce solutions"]
-            }
-          ]
-
-    },
-
-]
 
     return (
         <>
