@@ -19,12 +19,15 @@ function Footer() {
         </div>
         <div className="footer__nav">
           <ul>
-            <li><a href="#terms" onClick={() => { navigate("/Contact") }}>Կապվեք մեզ հետ</a></li>
+            <li><a href="#terms" onClick={() => { navigate("/Contact") }}> Կապ մեզ հետ </a></li>
             {/* <li><a href="#privacy" onClick={() => { navigate("/Snack") }}>Գաղտնիության քաղաքականություն</a></li> */}
             {/* <li><a href="#terms" onClick={() => { navigate("/Snack") }}>Ծառայության պայմաններ</a></li> */}
           </ul>
         </div>
         <div className="footer__social">
+          
+        {/* <li><a href="#terms" onClick={() => { navigate("/Contact") }}> Կապ մեզ հետ </a></li> */}
+
           <a href="https://www.facebook.com/profile.php?id=61562435567827&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
           <a href="https://www.instagram.com/easy_sol.am?igsh=ZHJlczNvNW4yNWlh" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
           <a href="https://www.linkedin.com/company/104765741/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>

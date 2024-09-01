@@ -85,6 +85,9 @@ console.log(selectedService,6666666666666);
             overlayClassName="service-modal-overlay"
         >
             <div className='modalll'>
+                <div className='button_close'>
+            <button  onClick={closeModal}>Փակել</button>
+            </div>
                 <h2>{selectedService?.name}</h2>
                 <p>{selectedService?.description}</p>
 
@@ -101,7 +104,6 @@ console.log(selectedService,6666666666666);
                     ))}
                 </div>
 
-                <button onClick={closeModal}>Փակել</button>
             </div>
         </Modal>
     </div>

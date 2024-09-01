@@ -18,8 +18,11 @@
   overflow-y: auto; /* Enable vertical scrolling for the modal */
 }
 
-.service-modal button {
-  margin-top: 10px;
+.button_close  {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+ /* margin-left: 0; */
 }
 
 .modalll {
@@ -29,6 +32,9 @@
   margin: 0 auto;
   flex-direction: column;
   overflow-y: auto;
+}
+.button_close{
+  left: 0;
 }
 
 .ModalPage {

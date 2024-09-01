@@ -16,25 +16,7 @@ function Header() {
 
   return (
     <header className="header">
-      {/* <div className="header__logo" onClick={() => { navigate("/") }}>
-        <img src="./images/EasySol.svg" alt="Easy Sol Logo" />
-      </div>
-      <div className="header__title">
-        <h1>EASY SOL</h1>
-        <p className="headerParagraph">Activity Maintenance and Management of Engineering Systems of Buildings</p>
-      </div>
-      <nav className={`header__nav ${isMobileMenuOpen ? 'header__nav--open' : ''}`}>
-        <ul>
-          <li><a onClick={() => { navigate("/") }} href="#home"  >Home</a></li>
-          <li><a onClick={() => { navigate("/") }} href="#services"  >Services</a></li>
-          <li><a onClick={() => { navigate("/") }} href="#about"  >About Us</a></li>
-          <li><a href="#contact" onClick={() => { navigate("/vacancies") }}>Vacancies</a></li>
-          <li><a href="#contact" onClick={() => { navigate("/partners") }}>Our partners</a></li>
-        </ul>
-      </nav>
-      <div className="header__hamburger" onClick={toggleMobileMenu}>
-        <FontAwesomeIcon icon={isMobileMenuOpen ? faTimes : faBars} size="2x" color="#fff" />
-      </div> */}
+      
 
 <div className="constainerHeader">
         <div className="imageHeader" onClick={()=>navigate("/")} >
@@ -54,7 +36,7 @@ function Header() {
             <li><a onClick={() => { navigate("/") }} href="#services"  >Ծառայություններ</a></li>
             <li><a onClick={() => { navigate("/") }} href="#about"  >Մեր մասին</a></li>
             <li><a href="#contact" onClick={() => { navigate("/vacancies") }}>Թափուր աշխատատեղեր</a></li>
-            <li><a href="#contact" onClick={() => { navigate("/partners") }}>Գործընկերներ</a></li>
+            <li><a href="#contact" onClick={() => { navigate("/partners") }}>Գործընկերները</a></li>
             {mobile && (
             <div className="closeHeader" id="closeHeader">
               <CloseOutlined onClick={() => {setMobile(!mobile)}}/>

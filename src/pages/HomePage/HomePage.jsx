@@ -73,7 +73,7 @@ function HomePage() {
     <div className="homepage">
       <section className="homepage__hero" id="home">
         <h1>Բարի Գալուստ Easy SOL</h1>
-        <p>Առաջատարը՝ շենքերի ինժեներական համակարգերի սպասարկման և կառավարման ոլորտում</p>
+        <p>Գտի՛ր ամենահեշտ լուծումը</p>
       </section>
 
       <section className="homepage__carousel">
@@ -92,7 +92,7 @@ function HomePage() {
 
       <section className="homepage__about" id="about">
         <h2>Մեր մասին</h2>
-        <p>Easy SOL-ը պարտավորվում է ապահովել բարձրակարգ ծառայություններ շենքերի ինժեներական համակարգերի պահպանման և կառավարման գործում:</p>
+        <p>EASY SOL-ի թիմը ջանք չի խնայում, որպեսզի ապահովի բարձրակարգ ծառայություններ ճարտարագիտական համակարգերի սպասարկման, մաքրության, բազմաբնակարան շեքների կառավարման և ֆոտովոլտային կայանների մոնտաժման ոլորտում</p>
       </section>
 {/* <div>
       <section className="homepage__new-services" id="new-services">

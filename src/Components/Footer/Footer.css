@@ -41,7 +41,7 @@
 
 .footer__nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex: 1; /* Allow it to grow and shrink */
 }
 
@@ -64,6 +64,7 @@
 }
 
 .footer__social {
+  max-width:150px ;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -92,6 +93,7 @@
   }
 
   .footer__nav ul {
+
     flex-direction: column;
     gap: 10px;
   }
