@@ -69,6 +69,7 @@ function HomePage() {
     return <div>Սխալ: {error.message}</div>;
   }
 
+  console.log(images,111111111111)
   return (
     <div className="homepage">
       <section className="homepage__hero" id="home">
